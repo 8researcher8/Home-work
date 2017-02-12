@@ -1,0 +1,224 @@
+body {
+	max-width: 1000px;
+	min-width: 940px;
+	min-height: 1230px;
+	max-height: 1230px;
+	font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+}
+
+.main {
+		margin: 0 0 0px 10px;
+		max-width: 940px;
+		width: 100%;
+		height: 100px;
+		color: #868686;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+		.mainText {
+			margin-left: 14px;
+		}
+			h1{
+				font-weight: 100;
+				color: #000000;
+				font-size: 35px;
+				font-family: "Arial";
+	}
+			#orgText{
+				color: #DA430E;
+}
+
+		.avatar {
+			width: 75px;
+			margin-right: 10px;
+			margin-top: 15px;
+		}
+
+.info {
+	max-width: 920px;
+	margin: 0 0 10px 25px;
+	border: 0px solid #333333;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	line-height: 35px;
+}
+
+	.Personal {
+		display: flex;
+	}
+		.info #PersonalQ div:first-child {
+			font-weight: bold;
+		}
+		.info #PersonalQ div {
+			width: 105px;
+			border-bottom: 1px solid #B2B2B2;
+		}
+}
+		.PersonalA{
+		color: #868686;
+				}	
+
+			.info .PersonalA div {
+				border-bottom: 1px solid #B2B2B2;
+			}
+			.PersonalA div:first-child {
+				border-top: 1px solid #B2B2B2;
+				margin-top: 35px;
+			}
+
+			.PersonalA span {
+				color: #da430e;
+}
+	.PersonalAw {
+		color: #868686;
+		margin: 0 0 0 25px;
+		width: 33%;
+		height: 216px;
+	}
+
+		.PersonalAw div {
+			border-bottom: 1px solid #B2B2B2;
+		}
+
+		.PersonalAw span {
+			color: #DA430E;
+		}
+
+		.PersonalAw div:first-child {
+			color: #000;
+			font-weight: bold;
+
+	}
+		.Comp {
+			color: #868686;
+			margin: 0 0 0 25px;
+			width: 280px;
+			height: 216px;
+		}
+
+		.Comp div {
+			border-bottom: 1px solid #B2B2B2;
+		}
+
+		.Comp strong {
+			color: #000;
+		}
+.footer {
+	border: 0px solid #333;
+	width: 950px;
+	height: 700px;
+	margin: 25px 0 0 25px;
+	line-height: 35px;
+}
+	.Port {
+	width: 285px;
+	}
+		.Port div {
+			color: #868686;
+			border-bottom: 1px solid #B2B2B2;
+
+		}
+		.Port div:first-child {
+			color: #000;
+			font-weight: bold;
+		}
+		.Port .greenText {
+			color: #4EA722;
+		} 
+		.Port .orgYear {
+			color: #da430e;
+			
+		}
+	.Blogs {
+		margin-top: 25px;
+		width: 295px;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: stretch;
+		align-content: stretch;
+		line-height: 35px;
+
+	}
+		.rightBl {
+			width: 170px;
+		}
+		.rightBl div {
+			color: #868686;
+			border-bottom: 1px solid #B2B2B2;			
+		}
+		.rightBl div:first-child{
+			font-weight: bold;
+			color: #000;
+		}
+		.leftBl {
+			margin-top: 35px;
+			width: 160px;
+		}
+		.leftBl div {
+			color: #4ea722;
+			border-bottom: 1px solid #B2B2B2;			
+		}
+		.leftBl div:first-child {
+			border-top: 1px solid #B2B2B2;
+		}
+
+	.MiscAll {
+		margin-top: 25px;
+		color: #333333;
+		width: 294px;
+		display: flex;
+	}
+		.MiscR {
+			width: 209px;
+		}
+		.MiscR div{
+			border-bottom: 1px solid #B2B2B2;
+		}
+		.MiscR div:first-child{
+			color: #000;
+			font-weight: bold;
+		}
+		.MiscL {
+			margin-top: 35px;
+			color: #868686;
+			width: 150px;
+		}
+		.MiscL div {
+			border-bottom: 1px solid #B2B2B2;
+		}
+		.MiscL div:first-child{
+			border-top: 1px solid #B2B2B2;
+		}
+
+.Ref {
+	margin-top: 25px;
+	height: 74px;
+	width: 294px;
+	color: #868686;
+}
+	.Ref div:first-child{
+		font-weight: bold;
+		color: #000;
+	}
+	.Ref div {
+		border-bottom: 1px solid #B2B2B2;
+	}
+	#table1 {
+		width: 500px;
+		height: 400px;
+		position: relative;
+		left: 390px;
+		bottom: 730px;
+		border-bottom: 0px solid #B2B2B2;
+	}
+	#table2 {
+		width: 500px;
+		position: relative;
+		bottom: 676px;
+		left: 386px;
+	}
