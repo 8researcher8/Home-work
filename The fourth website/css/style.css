@@ -1,0 +1,328 @@
+body {
+	margin: 20px;
+	font-family: sans-serif;
+	background-color: #DFE4EB;
+}
+
+.capitalize {
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #141F36;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F0F0F0;
+}
+header a{
+	color: #141f37;
+	font-size: 0.93em;
+	font-weight: bold;
+	padding: 30px 35px;
+	text-transform: uppercase;
+	border: none;
+	background-color: transparent;
+	text-decoration: none;
+	border: 1px solid #F0F0F0;
+}
+header a:hover{
+	background-color: #fff;
+	border-top: 5px solid #F65275;
+	padding: 26px 35px;
+}
+
+.content {
+	height: 100%;
+	padding-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.content>div {
+	width: 347px;
+ 	height: 815px;
+}
+.first, .second, .third {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-top: 5px solid #F65275;
+}
+
+.first>div:not(.firstOne) {
+	border-top: 5px solid #F65275;
+}
+.first>div {
+	background-color: #fff;	
+}
+
+.firstOne, .firstThree {
+	padding: 40px;
+}
+.firstOne input, .firstThree input {
+	width: 246px;
+	height: 40px;
+	margin-bottom: 10px;	
+	font-size: 0.8em;
+	text-indent: 15px;
+}
+.firstOne button,.firstThree button {
+	border: none;
+	background-color: #46C0FF;
+	padding: 14px 29px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.firstOne p:last-child {
+	color: #A3A3a3;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 0.93em;
+}
+
+.firstTwo {
+	border: none !important;
+}
+.fa.fa-search{
+	color: #F65275;
+	margin-left: 25px;
+}
+.firstTwo input{
+	width: 84%;
+	height: 65px;
+	border: none;
+	
+}
+.firstTwo input:focus {
+	border: none;
+}
+.firstThree button {
+	width: 250px;
+}
+
+.secondOne {
+	background-image: url(../images/Katman%201.png);
+	background-repeat: no-repeat;
+	background-size: 347px 372px;
+	background-size: cover;
+	color: #a3a3a3;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.titleA, .bigA {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+}
+.titleA {
+	font-size: 0.9em;
+	color: #46C0FF;
+	font-weight: bold;
+}
+.bigA {
+	font-size: 3em;
+	color: #505050;
+	font-family: Lucida Sans Unicode;
+}
+.bigA:hover{
+	color: #fff;	
+}
+.secondOne>a {
+	padding-right: 52px;
+	margin: 0;
+	
+}
+.secondOne>a:first-child{
+	padding-top: 60px;
+}
+.transparent p:first-child {
+	font-size: 0.9em;
+	margin: 70px 0 0 40px;
+	padding-top: 30px;
+	text-transform: capitalize;
+	font-weight: bold;
+	padding: 0;
+	color: #fff;
+}
+.transparent p:last-child{
+	padding: 0;
+	margin: 0;
+	margin: 0 0 40px 40px ;
+	color: #46C0FF;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+p .fa {
+	padding-left: 150px;
+	font-size: 3em;
+	color: #fff;
+}
+
+.Drmenu {
+	background-color: #707070;
+	display: flex;
+	flex-direction: column;
+	}
+.hide {
+display: none; 
+}
+.hide + label ~ div{
+	display: none;
+}
+/* оформляем текст label */
+.hide + label {
+	border-bottom: 0px dotted green;
+	padding: 20px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+	color: #f2eded;
+	border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+	display: block; 
+	background: #ffffff;
+	padding: 20px;
+	color: #000000;
+}
+.fa.fa-arrow-down{
+	position: relative;
+	left: 55%;
+	font-size: 1.5em;
+}
+
+.Drmenu2 {
+	background-color: #F65275;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	}
+.hide2 {
+	display: none; 
+}
+.hide2 + #lb2 ~ #Drmenu2div{
+	display: none;
+}
+.hide2 + #lb2 {
+	padding: 20px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+}
+.hide2:checked + #lb2 {
+	color: #f2eded;
+	border-bottom: 0;
+}
+.hide2:checked + #lb2 + #Drmenu2div {
+	display: block; 
+	background: #ffffff;
+	padding: 20px;
+	color: #000000;
+}
+#Drmenu2div input:first-child {
+	margin: 10px 0 10px 30px;
+	
+}
+.MiniDrop {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-left: 30px;
+}
+.MiniDrop select {
+	margin: 20px 0 20px 0;
+	padding: 10px;
+	width: 70%;
+}
+.MiniDrop button {
+	width: 35%;
+	height: 38px;
+	text-transform: capitalize;
+	border: none;
+	background-color: #46C0FF;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+
+.info {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	align-items: center;
+}
+.infoTop img {
+	padding: 60px 0 10px;
+	
+}
+.infoTop .capitalize {
+	margin: 0;
+	margin-bottom: 15px;
+}
+.infoTop a {
+	color: #46C0FF;
+	font-weight: bold;
+	font-size: 0.7em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.infoTop a>i {
+	padding-right: 10px;
+	padding-bottom: 35px;
+}
+.infobottom {
+	display: flex;
+	width: 100%;
+	background-color: #F1F1F1;
+	margin: 0;
+}
+.infobottom p{
+	margin: 0;
+	padding: 20px 30px 25px;
+	color: #585454;
+	border: 0px solid #D6D6D6;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 0.7em;
+	border: 1px solid #D6D6D6;
+	font-weight: bold;
+}
+.infobottom p:last-child{
+	padding: 20px 15px 25px;
+}
+.infobottom span {
+	font-size: 3em;
+	text-indent: 20px;
+	color: #FF5E72;
+}
+.info button {
+	width: 100%;
+	padding: 25px;
+	text-transform: uppercase;
+	border: none;
+	background-color: #46C0FF;
+	color: #fff;
+	font-weight: bold;
+}
+
+.thirdTwo button {
+	padding: 20px;
+	width: 100%;
+	text-transform: capitalize;
+	border: none;
+	background-color: #141F36;
+	color: #fff;
+	font-weight: bold;
+}
+iframe {
+	width:100%;
+	height:200px;
+}

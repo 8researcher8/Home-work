@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<style>
+		.all {
+			background-color: #707070;
+		}
+		.hide {
+    display: none; 
+	}
+	.hide + label ~ div{
+		display: none;
+	}
+	/* оформляем текст label */
+	.hide + label {
+		border-bottom: 0px dotted green;
+		padding: 0;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block; 
+	}
+	/* вид текста label при активном переключателе */
+	.hide:checked + label {
+		color: #f2eded;
+		border-bottom: 0;
+	}
+	/* когда чекбокс активен показываем блоки с содержанием  */
+	.hide:checked + label + div {
+		display: block; 
+		background: #707070;
+		-moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+		-webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+		box-shadow: inset 3px 3px 10px #7d8e8f;
+		padding: 0px;
+		color: #fff;
+	}
+	/* demo контейнер */
+	.demo {
+		margin: 5% 10%;
+	}
+		
+	</style>
+</head>
+<body>
+<div class="all">
+	<input type="checkbox" id="hd-1" class="hide">
+    <label for="hd-1" >Нажмите здесь, чтобы увидеть скрытый текст №1<i class="fa fa-arrow-down" aria-hidden="true"></i></label>
+    <div>
+        HTML — стандартный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). Язык HTML интерпретируется браузерами и отображается в виде документа в удобной для человека форме..
+    </div>
+</div>
+</body>
+</html>
