@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    margin-right: 30px;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #F0F0F0;
@@ -38,13 +39,14 @@ header a:hover{
 	padding-top: 80px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .content>div {
-	width: 347px;
- 	height: 815px;
+    height: 815px;
 }
 .first, .second, .third {
+    margin: 0 30px 30px 0; 	
+    flex: 1 1 347px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -62,13 +64,14 @@ header a:hover{
 	padding: 40px;
 }
 .firstOne input, .firstThree input {
-	width: 246px;
+	width: 51%;
 	height: 40px;
 	margin-bottom: 10px;	
 	font-size: 0.8em;
 	text-indent: 15px;
 }
 .firstOne button,.firstThree button {
+    display: block;
 	border: none;
 	background-color: #46C0FF;
 	padding: 14px 29px;
