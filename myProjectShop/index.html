@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://allfont.ru/allfont.css?fonts=montserrat-black" rel="stylesheet" type="text/css" />
+    <link href="http://allfont.ru/allfont.css?fonts=crimson-text-regular" rel="stylesheet" type="text/css" />
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="col-md-1 col-md-offset-1">
+        <a href="#"><img src="images/menu.png" alt="menu" class="menuBtn"></a>
+    </div>
+    <div class="col-md-1 logo">
+        <a href=""><img src="images/china1.png" alt="logo" class="logoImg"></a>
+    </div>
+    <div class="col-md-6 col-md-offset-1">
+        <ul class="list-unstyled list-inline headerMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Devices</a></li>
+            <li><a href="#">Payment</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+    <div class="col-md-2 leftHeadMenu">
+        <img src="images/shoppingIcon.png" alt="basket">
+        <a href="#"> CART <span class="badge">0</span></a>
+        <button class="signBtn">Sign in</button>
+    </div>
+</div>
+<div class="container secondMenu">
+    <ul class="col-md-6 text-uppercase list-unstyled list-inline secondMenuUl">
+        <li><a href="#">top sales</a></li>
+        <li><a href="#">brand focus</a></li>
+        <li><a href="#">hi-tech</a></li>
+        <li><a href="#">best sellers</a></li>
+        <li><a href="#">project</a></li>
+    </ul>
+    <div class="col-md-2 col-md-offset-2 supportSearch">
+        <button class="btnSup">SUPPORT</button>
+        <button class="glyphicon glyphicon-search btnSearch"></button>
+        <input type="search" placeholder="I'm looking for ...">
+    </div>
+</div>
+<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    <!-- Индикаторы для карусели -->
+    <ol class="carousel-indicators">
+        <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Слайды карусели -->
+    <div class="carousel-inner slides">
+        <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+        <div class="active item firstSlide">
+            <div class="firstTitle">
+            <h1>iPhone 6 32Gb </h1>
+            <h2>Black</h2>
+            <p class="firstP">At first, for some time, I was not able to answer him one world;<br>
+                but as he had taken me in his arms I held fast by him, or I should <br>
+                have fallen to the ground</p>
+            <a class="btn btn-default btnBuy" href="#" role="button">buy now</a>
+            </div>
+        </div>
+        <!-- Слайд №2 -->
+        <div class="item secondSlide">
+            <div class="secondTitle">
+                <h1>MASTER OF G</h1>
+                <h2>GWG1000-1A3</h2>
+                <p class="secondP">
+                    This new MUDMASTER model was created especially for those whose work takes it into areas where piles of rubble, dirt, and debris are present.
+                </p>
+                <a class="btn btn-default btnBuy" href="#" role="button">buy now</a>
+            </div>
+        </div>
+        <!-- Слайд №3 -->
+        <div class="item thirdSlide">
+            <div class="thirdTitle">
+                <h1>Jotter Premium Classic</h1>
+                <h1>Stainless Steel Chiselled</h1>
+                <p class="thirdP">
+                    Satin linished stainless steel enhanced with Parker's iconic chiselled pattern<br>
+                    High-shine stainless steel.
+                </p>
+                <a class="btn btn-default btnBuy" href="#" role="button">buy now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Навигация для карусели -->
+    <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+<div class="container-fluid containerContent">
+    <div class="container">
+    <nav class="navbar navbar-default menuSort">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Sort by: </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle text-uppercase firstFilterMenu" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">best match <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    </div>
+
+</div>
+</body>
+</html>

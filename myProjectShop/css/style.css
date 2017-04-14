@@ -1,0 +1,186 @@
+/* переделать id на class */
+.container-fluid {
+    border-bottom: 1px solid #F2F4F8;
+}
+
+.menuBtn, .headerMenu, .secondMenuUl {
+    padding-top: 30px;
+}
+
+
+.logoImg {
+    padding-top: 10px;
+    height: 90px;
+}
+
+.logo {
+    border-left: 1px solid #F2F4F8;
+    height: 90px;
+}
+.headerMenu {
+    font-weight: 600;
+}
+.headerMenu a{
+    text-decoration: none;
+    color: #37415E;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 14px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
+.leftHeadMenu {
+    padding-top: 25px;
+}
+.leftHeadMenu a{
+    color: #37415E;
+    text-decoration: none;
+    font-weight: 600;
+}
+.badge {
+    background-color: #E3E8F0;
+    color: #37415E;
+}
+
+.signBtn {
+    margin-left: 20px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: 1px solid #E3E8F0;
+    text-transform: uppercase;
+    color: #37415E;
+    font-weight: 600;
+}
+
+.signBtn:hover {
+    background-color: #F2F4F8;
+}
+
+
+.supportSearch button {
+    background-color: #fff;
+    border: none;
+}
+.btnSup {
+    color: #ADB3C5;
+}
+.btnSup:hover, .btnSearch {
+    color: #37415E;
+}
+.secondMenu {
+    color: #ADB3C5;
+}
+.secondMenu a {
+    color: #ADB3C5;
+    text-decoration: none;
+}
+.secondMenu a:hover {
+    color: #37415E;
+}
+.secondMenu :last-child {
+    border: none;
+}
+.supportSearch{
+    width: 370px;
+}
+.supportSearch :first-child {
+    padding: 30px 30px 30px 10px;
+}
+
+
+.containerContent {
+    background-color: #E5E5E7;
+    color: #A1A8BD;
+}
+
+.menuSort {
+    margin-top: 50px;
+}
+
+.firstSlide {
+    height: 500px;
+    background-color: #1C1E23;
+    color: white;
+    background-image: url(../images/iPhone.png);
+    background-repeat:no-repeat;
+    background-position: 1050px 0;
+    background-size: 325px;
+}
+.firstTitle {
+    margin: 0;
+    padding: 105px 0 0 250px;
+    width: 1000px;
+}
+.firstTitle h1, .secondTitle h1, .thirdTitle h1 {
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Montserrat Black', sans-serif;
+}
+.firstTitle h2, .secondTitle h2, .thirdTitle h2 {
+    padding: 0 0 35px 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Montserrat Black', sans-serif;
+}
+.firstP {
+    font-family: 'Crimson Text Regular', arial;
+    font-size: 15px;
+}
+
+.secondSlide {
+    height: 500px;
+    background-color: #1C1E23;
+    color: white;
+    background-image: url(../images/GWG1000-1A3_xlarge.png);
+    background-repeat: no-repeat;
+    background-position: 950px 60px;
+    background-size: 300px;
+}
+.secondTitle {
+    margin: 0;
+    padding: 105px 0 0 250px;
+    width: 700px;
+}
+.secondP {
+    font-family: 'Crimson Text Regular', arial;
+    font-size: 15px;
+}
+
+.thirdSlide {
+    height: 500px;
+    background-color: #1C1E23;
+    color: white;
+    background-image: url(../images/parker.png);
+    background-repeat: no-repeat;
+    background-position: 950px 60px;
+    background-size: 400px;
+}
+.thirdTitle {
+    margin: 0;
+    padding: 105px 0 0 250px;
+    width: 750px;
+}
+
+.thirdP {
+    font-family: 'Crimson Text Regular', arial;
+    font-size: 15px;
+}
+
+.btnBuy {
+    background-color: #2754EB;
+    color: #fff;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    width: 165px;
+    border-radius: 25px;
+    font-family: 'Montserrat Regular', sans-serif;
+}
+
+.firstFilterMenu {
+    border-right: 1px solid #E5E5E7;
+    font-family: 'Montserrat Regular', sans-serif;
+}
